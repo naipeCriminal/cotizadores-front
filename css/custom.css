@@ -1,0 +1,42 @@
+.space{
+	height: 35px;
+	width: 100%;
+}
+.migas{
+	color: #0073c9;
+}
+.migas span{
+	color:#999999;
+}
+h1{
+	color:#003f8c;
+}
+p{
+	color:#999999;
+}
+.btn-blue{
+	color: white;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #0068c5;
+	background-image: -moz-linear-gradient(top, #0078d2, #004fb0);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0078d2), to(#004fb0));
+	background-image: -webkit-linear-gradient(top, #0078d2, #004fb0);
+	background-image: -o-linear-gradient(top, #0078d2, #004fb0);
+	background-image: linear-gradient(to bottom, #0078d2, #004fb0);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0075cd', endColorstr='#004dab', GradientType=0);
+	border-color: #004fb0 #004fb0 #002d63;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+.btn-blue:hover{
+    color: white;
+    background-color: #004fb0;	
+	color: #003f8c;
+	text-decoration: none;
+	background-position: 0 -15px;
+	-webkit-transition: background-position 0.1s linear;
+	-moz-transition: background-position 0.1s linear;
+	-o-transition: background-position 0.1s linear;
+	transition: background-position 0.1s linear;	
+}
