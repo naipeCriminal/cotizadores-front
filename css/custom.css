@@ -61,7 +61,7 @@ p{
 	background: #094FA4;
 }
 .azulf-2{
-	background: #094FA4;
+	background: #006EC1;
 }
 .azul-2{
 	background: #006EC1;
@@ -166,4 +166,25 @@ p{
 	font-size: 7px;
 	position: relative;
 	top: -15px;	
+}
+.otros-seguros .panel.panel-default{
+	border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0px 0px 0px 0px;
+	-webkit-border-radius: 0px 0px 0px 0px;
+	border: 1px solid #009EE5;	
+	color: #ffffff;
+}
+.otros-seguros h2{
+	color: #ffffff;
+}
+.otros-seguros .panel.panel-default p{
+	color: #fff;
+	font-style: italic;
+}
+.otros-seguros .panel.panel-default.seguimiento h2,.otros-seguros .panel.panel-default.seguimiento p{
+	color:#363636;
+	font-style: normal;
+}
+.otros-seguros .panel.panel-default.seguimiento button{
+	color: #ffffff;
 }
