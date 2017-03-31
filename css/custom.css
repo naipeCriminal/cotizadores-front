@@ -48,3 +48,50 @@ p{
 	padding-top: 130px;
 	padding-bottom: 130px;
 }
+
+.azul-1{
+	background: #094FA4;
+}
+.azul-2{
+	background: #006EC1 ;
+}
+.azul-3{
+	background: #009EE5;
+}
+.azul-4{
+	background: #52BCEC;
+}
+.azul-5{
+	background: #89D1F3;
+}
+.azul-6{
+	background: #B5E5F9;
+}
+.naranja{
+	background:#F6891E;
+}
+.magenta{
+	background: #C8175E;
+}
+.verde{
+	background: #86C82D;
+}
+.gris-1{
+	background: #1a1a1a;
+}
+.gris-2{
+	background: #363636;
+}
+.gris-3{
+	background: #666666;
+}
+.gris-4{
+	background: #cccccc;
+}
+.gris-5{
+	background: #d8d8d8;
+}
+.gris-6{
+	background: #f2f2f2;
+}
+
