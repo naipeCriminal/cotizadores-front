@@ -110,7 +110,7 @@ p{
 .naranja{
 	background:#F6891E;
 }
-.naranja:hover{
+.naranja:hover,.naranja:focus,.naranja:active,.naranja:active:hover{
 	background:#F6891E;
 }
 .magefnta{
@@ -188,6 +188,14 @@ p{
 	-webkit-border-radius: 0px 0px 0px 0px;
 	border: 1px solid #009EE5;	
 	color: #ffffff;
+	padding-left: 15px;
+	padding-right: 15px;	
+}
+.otros-seguros .panel-body{
+	padding: 5px;
+}
+.otros-seguros h3{
+	font-size: 22px;
 }
 .otros-seguros h2{
 	color: #ffffff;
@@ -202,7 +210,7 @@ p{
 }
 
 .otros-seguros .panel.panel-default.seguimiento{
-	height: 285px;
+	height: 213px;
 }
 .otros-seguros .panel.panel-default.seguimiento button{
 	color: #ffffff;
@@ -216,7 +224,16 @@ p{
 }
 .seguros p{
 	color: #ffffff;
+	line-height: 10px;
+}
+.seguros .img-seguros{
+    height: 150px;
+    background-size: cover;	
 }
 .footer ul a{
 	color: #666666;
+}
+.carousel-caption{
+	text-shadow: none;
+	top: 20%;
 }
