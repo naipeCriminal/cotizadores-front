@@ -5,6 +5,15 @@
 .migas{
 	color: #0073c9;
 }
+.btn,.btn-default{
+	border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0px 0px 0px 0px;
+	-webkit-border-radius: 0px 0px 0px 0px;
+	-webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+	border-color: none !important;
+}
 .migas span{
 	color:#999999;
 }
@@ -52,7 +61,10 @@ p{
 	padding-top: 130px;
 	padding-bottom: 130px;
 }
-
+.pastillaind{
+	padding: 20px;
+	background: rgba(255, 255, 255, 0.68);
+}
 
 .azulf-1{
 	color:#094FA4;
@@ -96,6 +108,9 @@ p{
 	color:#F6891E;	
 }
 .naranja{
+	background:#F6891E;
+}
+.naranja:hover{
 	background:#F6891E;
 }
 .magefnta{
@@ -185,6 +200,23 @@ p{
 	color:#363636;
 	font-style: normal;
 }
+
+.otros-seguros .panel.panel-default.seguimiento{
+	height: 285px;
+}
 .otros-seguros .panel.panel-default.seguimiento button{
 	color: #ffffff;
+}
+.seguros a.btn{
+	position: relative;
+	bottom: -80px;
+	left: 25px;
+	padding-left: 20px;
+	padding-right: 20px;	
+}
+.seguros p{
+	color: #ffffff;
+}
+.footer ul a{
+	color: #666666;
 }
