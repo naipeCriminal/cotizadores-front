@@ -233,7 +233,8 @@ p{
 }
 .seguros .img-seguros{
     height: 150px;
-    background-size: cover;	
+	background-size: cover;
+	background-position: center center;
 }
 .footer ul a{
 	color: #666666;
