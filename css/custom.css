@@ -112,7 +112,7 @@ p{
 	background:#F6891E;
 }
 .reparaciones{
-	padding: 15px 60px 15px 60px;
+	padding: 4% 19% 4% 19%;
 }
 .naranja:hover,.naranja:focus,.naranja:active,.naranja:active:hover{
 	background:#F6891E;
@@ -217,6 +217,9 @@ p{
 .otros-seguros .panel.panel-default.seguimiento{
 	height: 213px;
 }
+.otros-seguros .panel.panel-default.seguimiento.oculto{
+	height: inherit;	
+}
 .otros-seguros .panel.panel-default.seguimiento button{
 	color: #ffffff;
 }
@@ -236,8 +239,7 @@ p{
 }
 .seguros .img-seguros{
     height: 150px;
-	background-size: cover;
-	background-position: center center;
+    background-size: cover;	
 }
 .footer ul a{
 	color: #666666;
@@ -247,8 +249,8 @@ p{
 	top: 20%;
 }
 .moveimag {
-		padding-top: 37px;
+		padding-top: 22px;
 }
 .control {
-	margin-top: 10px;
+	margin-top: 4px;
 }
