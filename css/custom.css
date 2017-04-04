@@ -111,6 +111,9 @@ p{
 .naranja{
 	background:#F6891E;
 }
+.reparaciones{
+	padding: 15px 60px 15px 60px;
+}
 .naranja:hover,.naranja:focus,.naranja:active,.naranja:active:hover{
 	background:#F6891E;
 }
@@ -242,4 +245,10 @@ p{
 .carousel-caption{
 	text-shadow: none;
 	top: 20%;
+}
+.moveimag {
+		padding-top: 37px;
+}
+.control {
+	margin-top: 10px;
 }
