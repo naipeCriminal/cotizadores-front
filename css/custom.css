@@ -9,10 +9,11 @@
 	border-radius: 0px 0px 0px 0px;
 	-moz-border-radius: 0px 0px 0px 0px;
 	-webkit-border-radius: 0px 0px 0px 0px;
-	-webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
-	box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 10px 10px 37px -10px rgba(0,0,0,0.26);
+	-moz-box-shadow: 10px 10px 37px -10px rgba(0,0,0,0.26);
+	box-shadow: 10px 10px 37px -10px rgba(0,0,0,0.26);
 	border-color: none !important;
+	border:none;
 }
 .migas span{
 	color:#999999;
