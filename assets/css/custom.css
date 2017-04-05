@@ -305,10 +305,14 @@ p{
 	font-size: 15px;
 	font-family: 'bentonsansbookbbva';
 }
+.otros-seguros .panel.panel-default h1{
+	color:#363636;
+	font-size: 20px;
+	font-family: 'bentonsansbookbbva';
+}
 .otros-seguros .panel.panel-default.seguimiento h2,.otros-seguros .panel.panel-default.seguimiento p{
 	color:#363636;
 	font-size: 15px;
-	font-style: normal;
 }
 
 .otros-seguros .panel.panel-default.seguimiento{
