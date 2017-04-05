@@ -416,8 +416,22 @@ li span.azulf-3 {
 	font-size: 58px;
 	text-align: center;
 }
-.gris-1{
-	background: #1a1a1a;
-	font-size: 14px;
+
+/* Navegador*/
+
+
+
+.navegador li{
+	list-style-type: none;
+	display: inline;
+	text-align: center;
+	margin: 0 5px 0 0;
+	padding: 2px 7px 2px 7px;
+	text-decoration: none;
+	border-right: 1px;
 }
+.navegador li a{
+color:#;
+}
+
 
