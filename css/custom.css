@@ -6,7 +6,6 @@
     font-style: normal;
 
 }
-
 @font-face {
     font-family: 'bentonsansbookbbva';
     src: url('fontsBBVA/bentonsansbbva-book-webfont.woff2') format('woff2'),
@@ -308,6 +307,7 @@ p{
 }
 .otros-seguros .panel.panel-default.seguimiento h2,.otros-seguros .panel.panel-default.seguimiento p{
 	color:#363636;
+	font-size: 15px;
 	font-style: normal;
 }
 
@@ -364,3 +364,11 @@ p{
 .moveimag {
 		padding-top: 22px;
 }
+.control {
+	margin-top: 4px;
+}
+li span.azulf-3 {
+	font-size: 15px;
+}
+
+
