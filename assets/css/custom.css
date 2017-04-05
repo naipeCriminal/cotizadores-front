@@ -177,9 +177,7 @@ p{
 .narafnja{
 	color:#F6891E;	
 }
-.naranja{
-	background:#F6891E;
-}
+
 .reparaciones{
 	padding: 4% 19% 4% 19%;
 }
@@ -323,6 +321,8 @@ p{
 }
 .otros-seguros .panel.panel-default.seguimiento button{
 	color: #ffffff;
+	font-size: 14px;
+	font-family: 'bentonsansbookbbva';
 }
 .control {
 	margin-top: 4px;
@@ -341,6 +341,23 @@ p{
     height: 340px;
 }
 /* Termina estilos Azul-1 otros seguros */
+
+/*Estilos container call gisf-2   */
+.naranja{
+	background:#F6891E;
+	margin-top: 32px;
+    padding-left: 34px;
+    padding-right: 34px
+}
+.call h1{
+	font-size: 20px;
+	font-family: 'bentonsansbookbbva';
+}
+.call p{
+	font-size: 15px;
+	font-family: 'bentonsansbookbbva';
+}
+/*  Termina container call gris-2  */
 
 /* Estilos ventana chat  */
 .chat{
@@ -365,10 +382,18 @@ p{
 }
 /* Termina Estilos ventana chat  */
 
-
+/*  Estilos footer 		  */
+.footer h4{
+	font-size: 14px;
+	font-family: 'bentonsansbookbbva';
+}
 .footer ul a{
 	color: #666666;
+	font-size: 12px;
+	font-family:  'bentonsansbookbbva';
 }
+
+/* Termina estilos footer */
 .carousel-caption{
 	text-shadow: none;
 	top: 20%;
