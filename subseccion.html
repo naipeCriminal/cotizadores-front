@@ -90,8 +90,8 @@
 <div class="azul-1">
 	<div class="container otros-seguros">
 		<div class="row">
-			<div class="col-md-4 col-xs-8 col-sm-4">
-				<div class="marcoB">
+			<div class="col-md-4 col-xs-12 col-sm-4">
+				<div id="a" class="marcoB">
 					<div Class="panel-body">
 				      <ul>
 				      	<h4>Beneficios</h4>
@@ -103,7 +103,7 @@
 				    </div>
 			    </div>
 		    </div>
-		   	<div class="col-md-4 col-xs-8 col-sm-4">
+		   	<div class="col-md-4 col-xs-12 col-sm-4">
 				<div class="marcoB">
 					<div Class="panel-body">
 					      <ul>
@@ -115,7 +115,7 @@
 				      </div>
 			    </div>
 		    </div>
-		   	<div class="col-md-4 col-xs-8 col-sm-4">
+		   	<div class="col-md-4 col-xs-12 col-sm-4">
 				<div class="marcoB">
 				    <div Class="panel-body">
 				      <ul>
@@ -133,7 +133,6 @@
 		</div>				
 	</div>
  </div>			
-
 
 <div class="gris-2">
 	<div class="container call">
@@ -159,17 +158,8 @@
 	</div>	
 </div>
 
+<div class="space"></div>
 
-
-
-
-
-
-		</div>
-
-	</div>
-	<div class="space"></div>
-</div>
 <div class="container footer">
 	<div class="row">
 		<div class="space"></div>
@@ -228,9 +218,34 @@
 
 		<!-- jQuery -->
 		<script src="http://code.jquery.com/jquery.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
 		<!-- Bootstrap JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
- 		<script src="Hello World"></script>
+		<script>
+	/*		jQuery(document).ready(function(){
+	   			if ($(window).width() <900) {
+	         		alert('Less than 900');
+	         		$('.marcoB').css("height",100);
+	    		}
+			});	
+
+			jQuery(document).ready(function(){
+    if (jQuery(window).width() < 900) {
+        jQuery(".top-menu").css("display", "none");
+    }  
+});*/
+
+jQuery(window).resize(function () {
+        	if ($(window).width() <900) {
+
+	         		$('.marcoB').css("height",'auto');
+	    		}
+	    		else{
+	    			$('.marcoB').css("height",340);
+	    		}
+});		
+		</script>
+
 	</body>
 </html>
