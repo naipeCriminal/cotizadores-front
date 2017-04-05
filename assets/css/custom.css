@@ -407,5 +407,12 @@ p{
 li span.azulf-3 {
 	font-size: 15px;
 }
+.seguro_usa p{
+	font-size: 20px;
+	text-align: center;
+}
 
-
+.seguro_usa h1{
+	font-size: 58px;
+	text-align: center;
+}
