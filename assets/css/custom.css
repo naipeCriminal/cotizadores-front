@@ -429,6 +429,15 @@ li span.azulf-3 {
 	border-right: 1px;
 }
 
+.navegador li a{
+	color: #fff;
+}
+
+.navegador li a img{
+	height: 30px;
+	padding: 0px;
+}
+
 /* Estilos Panel */
 .panelColor{
 	color: white;
