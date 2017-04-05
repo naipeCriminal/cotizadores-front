@@ -450,5 +450,8 @@ li span.azulf-3 {
 .imagen img{
 	height: 100px;
 	padding: 15px;
-
 }
+.der{
+	float: right;
+}
+/* Estilos Panel */
