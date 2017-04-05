@@ -418,6 +418,25 @@ li span.azulf-3 {
 	text-align: center;
 }
 
+/* Navegador*/
+.navegador li{
+	list-style-type: none;
+	display: inline;
+	text-align: center;
+	margin: 0 5px 0 0;
+	padding: 2px 7px 2px 7px;
+	text-decoration: none;
+	border-right: 1px;
+}
+
+.navegador li a{
+	color: #fff;
+}
+
+.navegador li a img{
+	height: 30px;
+	padding: 0px;
+}
 
 /* Estilos Panel */
 .panelColor{
