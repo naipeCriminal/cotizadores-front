@@ -328,6 +328,14 @@ p{
 	font-size: 20px;
 	font-family: 'bentonsansbookbbva';
 }
+.marcoB{
+	background: #ffffff;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: 25px;
+    margin-bottom: 25px;
+    height: 340px;
+}
 /* Termina estilos Azul-1 otros seguros */
 
 /* Estilos ventana chat  */
