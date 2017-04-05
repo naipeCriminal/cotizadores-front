@@ -387,8 +387,8 @@ p{
 	font-size: 14px;
 	font-family: 'bentonsansbookbbva';
 }
-.footer ul a{
-	color: #666666;
+.footer ul li a {
+	color: #009EE5;
 	font-size: 12px;
 	font-family:  'bentonsansbookbbva';
 }
@@ -415,5 +415,9 @@ li span.azulf-3 {
 .seguro_usa h1{
 	font-size: 58px;
 	text-align: center;
+}
+.gris-1{
+	background: #1a1a1a;
+	font-size: 14px;
 }
 
