@@ -347,7 +347,8 @@ p{
 	background:#F6891E;
 	margin-top: 32px;
     padding-left: 34px;
-    padding-right: 34px
+    padding-right: 34px;
+    color: white;
 }
 .call h1{
 	font-size: 20px;
@@ -415,4 +416,14 @@ li span.azulf-3 {
 .seguro_usa h1{
 	font-size: 58px;
 	text-align: center;
+}
+
+
+/* Estilos Panel */
+.panelColor{
+	color: white;
+    background-color: #009ee5;
+}
+.bordeAzul tbody tr td{
+	border-color: #009ee5;
 }
