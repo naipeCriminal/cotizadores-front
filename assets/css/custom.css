@@ -347,7 +347,8 @@ p{
 	background:#F6891E;
 	margin-top: 32px;
     padding-left: 34px;
-    padding-right: 34px
+    padding-right: 34px;
+    color: white;
 }
 .call h1{
 	font-size: 20px;
@@ -387,8 +388,8 @@ p{
 	font-size: 14px;
 	font-family: 'bentonsansbookbbva';
 }
-.footer ul li a {
-	color: #009EE5;
+.footer ul a{
+	color: #666666;
 	font-size: 12px;
 	font-family:  'bentonsansbookbbva';
 }
@@ -418,9 +419,6 @@ li span.azulf-3 {
 }
 
 /* Navegador*/
-
-
-
 .navegador li{
 	list-style-type: none;
 	display: inline;
@@ -430,8 +428,13 @@ li span.azulf-3 {
 	text-decoration: none;
 	border-right: 1px;
 }
-.navegador li a{
-color:#;
+
+/* Estilos Panel */
+.panelColor{
+	color: white;
+    background-color: #009ee5;
 }
-
-
+.bordeAzul tbody tr td{
+	border-color: #009ee5;
+}
+/* Estilos Panel */
