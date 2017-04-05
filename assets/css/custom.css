@@ -447,3 +447,8 @@ li span.azulf-3 {
 	border-color: #009ee5;
 }
 /* Estilos Panel */
+.imagen img{
+	height: 100px;
+	padding: 15px;
+
+}
