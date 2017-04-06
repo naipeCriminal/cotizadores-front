@@ -423,8 +423,8 @@ li span.azulf-3 {
 	list-style-type: none;
 	display: inline;
 	text-align: center;
-	margin: 0 5px 0 0;
-	padding: 2px 7px 2px 7px;
+	margin: 0 -5px 0 0;
+	padding: 2px 5px 2px 5px;
 	text-decoration: none;
 	border-right: 1px;
 }
@@ -435,7 +435,7 @@ li span.azulf-3 {
 
 .navegador li a img{
 	height: 30px;
-	padding: 0px;
+	padding: 3px;
 }
 
 /* Estilos Panel */
@@ -455,3 +455,6 @@ li span.azulf-3 {
 	float: right;
 }
 /* Estilos Panel */
+.margen-menu {
+	margin-top: 10px;
+}
