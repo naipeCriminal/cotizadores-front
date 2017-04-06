@@ -524,3 +524,10 @@ li span.azulf-3 {
     content: "\e114";	 
 }
 /* Estilos Panel */
+
+/*fotter */
+.menufooter ul li{
+	list-style-type: none;
+	float: left;
+	padding: 10px; 
+}
