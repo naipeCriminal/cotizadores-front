@@ -462,7 +462,29 @@ li span.azulf-3 {
 .der{
 	float: right;
 }
-/* Estilos Panel */
 .margen-menu {
 	margin-top: 10px;
 }
+.collapsed .flecha:after{
+	position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    content: "\e113";	 
+}
+.flecha:after{
+	position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    content: "\e114";	 
+}
+/* Estilos Panel */
