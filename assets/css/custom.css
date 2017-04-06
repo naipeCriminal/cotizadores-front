@@ -442,9 +442,17 @@ li span.azulf-3 {
 .panelColor{
 	color: white;
     background-color: #009ee5;
+    padding: 10px 15px;
+    border-color: #009ee5;
+}
+.bordeAzul{
+	border-color: #009ee5;
 }
 .bordeAzul tbody tr td{
 	border-color: #009ee5;
+}
+.bordeAzul thead tr th{
+	border-bottom: 1px solid #009ee5;
 }
 /* Estilos Panel */
 .imagen img{
