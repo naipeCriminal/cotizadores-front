@@ -526,6 +526,7 @@ li span.azulf-3 {
 /* Estilos Panel */
 
 
+
 /* Inicio header */
 .imagen-header img{
 	height: 80px;
@@ -560,3 +561,11 @@ li span.azulf-3 {
 }
 
 /* Fin header */
+
+/*fotter */
+.menufooter ul li{
+	list-style-type: none;
+	float: left;
+	padding: 10px; 
+}
+
