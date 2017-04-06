@@ -438,6 +438,23 @@ li span.azulf-3 {
 	padding: 3px;
 }
 
+.navegador li img{
+	height: 30px;
+	padding: 3px;
+}
+
+.btn-blue:hover{
+    color: white;
+    background-color: #004fb0;	
+	color: #003f8c;
+	text-decoration: none;
+	background-position: 0 -15px;
+	-webkit-transition: background-position 0.1s linear;
+	-moz-transition: background-position 0.1s linear;
+	-o-transition: background-position 0.1s linear;
+	transition: background-position 0.1s linear;
+/* Fin Navegador */
+
 /* Estilos Panel */
 .panelColor{
 	color: white;
