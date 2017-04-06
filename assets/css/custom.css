@@ -428,31 +428,53 @@ li span.azulf-3 {
 	text-decoration: none;
 	border-right: 1px;
 }
-
-.navegador li a{
-	color: #fff;
+ .navegador li a{
+ 	color: #fff;
+ }
+  .navegador li a img {
+ 	height: 30px;
+ 	padding: 3px;
+ }
+.degradado {
+	color: white;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #0068c5;
+	background-image: -moz-linear-gradient(top, #0078d2, #004fb0);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0078d2), to(#004fb0));
+	background-image: -webkit-linear-gradient(top, #0078d2, #004fb0);
+	background-image: -o-linear-gradient(top, #0078d2, #004fb0);
+	background-image: linear-gradient(to bottom, #0078d2, #004fb0);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0075cd', endColorstr='#004dab', GradientType=0);
+	border-color: #004fb0 #004fb0 #002d63;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 }
-
-.navegador li a img{
-	height: 30px;
-	padding: 3px;
-}
-
-.navegador li img{
-	height: 30px;
-	padding: 3px;
-}
-
-.btn-blue:hover{
-    color: white;
-    background-color: #004fb0;	
+ .degradado:hover{
+ 	background-color: #004fb0;	
 	color: #003f8c;
 	text-decoration: none;
 	background-position: 0 -15px;
 	-webkit-transition: background-position 0.1s linear;
 	-moz-transition: background-position 0.1s linear;
 	-o-transition: background-position 0.1s linear;
-	transition: background-position 0.1s linear;
+	transition: background-position 0.1s linear;	
+ }   
+    
+
+.navegador .fondo-degradado li:hover{
+    color: #000;
+    background: #fff;	
+		
+}
+.imagen img{
+	height: 100px;
+	padding: 15px;
+}
+.margen-menu {
+ 	margin-top: 10px;
+ }
+
 /* Fin Navegador */
 
 /* Estilos Panel */
@@ -464,10 +486,7 @@ li span.azulf-3 {
 	border-color: #009ee5;
 }
 /* Estilos Panel */
-.imagen img{
-	height: 100px;
-	padding: 15px;
-}
+
 .der{
 	float: right;
 }
