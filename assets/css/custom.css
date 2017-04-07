@@ -572,3 +572,9 @@ li span.azulf-3 {
 	padding: 10px; 
 }
 
+/*menu*/
+.navbar-default {
+    background: rgba(255, 255, 255, 0);
+    border: none;
+}
+/*/menu*/
