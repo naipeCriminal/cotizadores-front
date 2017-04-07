@@ -528,9 +528,47 @@ li span.azulf-3 {
 }
 /* Estilos Panel */
 
+
+
+/* Inicio header */
+.imagen-header img{
+	height: 80px;
+	padding: 0px;
+}
+.space-header{
+	height: 20px;
+	width: 100%;
+}
+.space-header ul img{
+	padding: 19px;
+	height: 20px;
+}
+.header{
+	list-style-type: none;
+	display: inline;
+	
+	
+}
+.header ul li{
+	display: inline;
+	margin: 0 -5px 0 0;
+	padding: 2px 5px 2px 5px;
+	text-decoration: none;
+	border-right: 1px;
+
+}
+.ima-head img{
+	height: 20px;
+	padding: 0px;
+
+}
+
+/* Fin header */
+
 /*fotter */
 .menufooter ul li{
 	list-style-type: none;
 	float: left;
 	padding: 10px; 
 }
+
