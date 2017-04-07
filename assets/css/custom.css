@@ -1,3 +1,6 @@
+.container{
+	width: 960px;
+}
 @font-face {
     font-family: 'bentonsansbold';
     src: url('fontsBBVA/bentonsansbbva-bold-webfont.woff2') format('woff2'),
