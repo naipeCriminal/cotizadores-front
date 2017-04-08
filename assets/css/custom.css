@@ -442,16 +442,9 @@ li span.azulf-3 {
 	color: white;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 	background-color: #0068c5;
-	background-image: -moz-linear-gradient(top, #0078d2, #004fb0);
-	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0078d2), to(#004fb0));
-	background-image: -webkit-linear-gradient(top, #0078d2, #004fb0);
-	background-image: -o-linear-gradient(top, #0078d2, #004fb0);
 	background-image: linear-gradient(to bottom, #0078d2, #004fb0);
 	background-repeat: repeat-x;
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0075cd', endColorstr='#004dab', GradientType=0);
-	border-color: #004fb0 #004fb0 #002d63;
 	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 }
  .degradado:hover{
  	background-color: #004fb0;	
@@ -576,5 +569,74 @@ li span.azulf-3 {
 .navbar-default {
     background: rgba(255, 255, 255, 0);
     border: none;
+}
+
+.mseguros{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.imghead{
+	width: 31px;
+    height: 29px;
+    position: absolute;
+    left: -18px;
+    top: 9px;
+
+}
+.home{
+	 background-image: url('../img/icn_menu_03.png');
+	background-repeat: no-repeat;
+}
+.dona{
+	 background-image: url('../img/icn_menu_04.png');
+	background-repeat: no-repeat;
+}
+.auto{
+	background-image: url('../img/icn_menu_05.png');
+	background-repeat: no-repeat;
+}
+
+.mseguros .mov li{
+     background: url('../img/separador-menu.png');
+    background-repeat: no-repeat;
+    padding-left: 7px; 
+     padding-right: 7px;
+
+}
+.mseguros .mov li a:hover{
+	
+	color: #009ee5;
+}
+.mseguros .mov li a{
+	color: #fff;
+	left: 15px; 
+}
+.bienes{
+	 background-image: url('../img/icn_menu_06.png');
+	background-repeat: no-repeat;
+}
+.vida{
+	 background-image: url('../img/icn_menu_07.png');
+	background-repeat: no-repeat;
+}
+.accidentes{
+	 background-image: url('../img/icn_menu_08.png');
+	background-repeat: no-repeat;
+}
+.salud{
+	 background-image: url('../img/icn_menu_09.png');
+	background-repeat: no-repeat;
+}
+.pimes{
+	 background-image: url('../img/icn_menu_10.png');
+	background-repeat: no-repeat;
+}
+.empresas{
+	 background-image: url('../img/icn_menu_11.png');
+	background-repeat: no-repeat;
+}
+.separador{
+	background-image: url('../img/separador-menu.png');
+	background-repeat: no-repeat;
 }
 /*/menu*/
