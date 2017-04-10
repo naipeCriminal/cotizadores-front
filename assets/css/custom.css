@@ -548,7 +548,7 @@ li span.azulf-3 {
 .header ul li{
 	display: inline;
 	margin: 0 -5px 0 0;
-	padding: 2px 5px 2px 5px;
+	padding: 5px 5px 5px 5px;
 	text-decoration: none;
 	border-right: 1px;
 
@@ -556,7 +556,15 @@ li span.azulf-3 {
 .ima-head img{
 	height: 16px;
 	padding: 0px;
-
+}
+.separador-header{ 
+    background: url('../img/separador-menu.png');
+    background-repeat: no-repeat;
+    padding-left: 7px; 
+    padding-right: 7px;
+}
+.hidden-xs .hidden-sm{
+	overflow: hidden;
 }
 
 /* Fin header */
@@ -642,4 +650,5 @@ li span.azulf-3 {
 	background-image: url('../img/separador-menu.png');
 	background-repeat: no-repeat;
 }
+
 /*/menu*/
