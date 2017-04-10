@@ -1,5 +1,7 @@
-.container{
-	width: 960px;
+@media (min-width: 1200px){
+	.container {
+	    width: 960px;
+	}
 }
 @font-face {
     font-family: 'bentonsansbold';
@@ -536,11 +538,12 @@ li span.azulf-3 {
 	padding: 19px;
 	height: 20px;
 }
+.header-principal .col-md-7{
+	width: 50%;
+} 
 .header{
 	list-style-type: none;
 	display: inline;
-	
-	
 }
 .header ul li{
 	display: inline;
@@ -551,7 +554,7 @@ li span.azulf-3 {
 
 }
 .ima-head img{
-	height: 20px;
+	height: 16px;
 	padding: 0px;
 
 }
@@ -597,10 +600,10 @@ li span.azulf-3 {
 }
 
 .mseguros .mov li{
-     background: url('../img/separador-menu.png');
+    background: url('../img/separador-menu.png');
     background-repeat: no-repeat;
     padding-left: 7px; 
-     padding-right: 7px;
+    padding-right: 7px;
 
 }
 .mseguros .mov li a:hover{
@@ -632,7 +635,7 @@ li span.azulf-3 {
 	background-repeat: no-repeat;
 }
 .empresas{
-	 background-image: url('../img/icn_menu_11.png');
+	background-image: url('../img/icn_menu_11.png');
 	background-repeat: no-repeat;
 }
 .separador{
