@@ -392,11 +392,23 @@ p{
 .footer h4{
 	font-size: 14px;
 	font-family: 'bentonsansbookbbva';
+
 }
 .footer ul a{
-	color: #666666;
-	font-size: 12px;
+	color: #52BCEC;
+	font-size: 14px;
 	font-family:  'bentonsansbookbbva';
+}
+.menufooter ul li{
+	list-style-type: none;
+	float: left;
+	padding: 10px; 
+}
+.footer ul li img{
+	display: inline;
+	float: left;
+	height: 28px;
+ 	padding: 3px;
 }
 
 /* Termina estilos footer */
@@ -570,11 +582,7 @@ li span.azulf-3 {
 /* Fin header */
 
 /*fotter */
-.menufooter ul li{
-	list-style-type: none;
-	float: left;
-	padding: 10px; 
-}
+
 
 /*menu*/
 .navbar-default {
