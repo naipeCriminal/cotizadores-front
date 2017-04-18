@@ -665,6 +665,8 @@ li span.azulf-3 {
 }
 .table tr td{
 	background-color: white;
+	border-color: #009EE5;
+
 }
 .panel-body {
 	padding-left: 31px;
@@ -672,10 +674,15 @@ li span.azulf-3 {
 .table tbody tr td{
 	padding-right: 70px;
     padding-left: 29px;
+    border-bottom: #009EE5 1px solid;
 }
 .table thead tr th{
-	padding-left: 29px;
+	padding-left: 30px;
+	background-color: #009EE5;
+	color: white;
+    padding-right: 40px;
+    border-bottom: none;
+    font-size: 16px;
 }
-
 
 /*Fin Contenedor Coberturas*/
