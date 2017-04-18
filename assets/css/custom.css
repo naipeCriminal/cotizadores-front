@@ -448,7 +448,7 @@ li span.azulf-3 {
  .navegador li a{
  	color: #fff;
  }
-  .navegador li a img {
+ .navegador li a img {
  	height: 30px;
  	padding: 3px;
  }
@@ -471,11 +471,10 @@ li span.azulf-3 {
 	transition: background-position 0.1s linear;	
  }   
     
-
 .navegador .fondo-degradado li:hover{
     color: #000;
     background: #fff;	
-		
+
 }
 .imagen img{
 	height: 100px;
@@ -535,8 +534,6 @@ li span.azulf-3 {
 }
 /* Estilos Panel */
 
-
-
 /* Inicio header */
 .imagen-header img{
 	height: 80px;
@@ -580,9 +577,6 @@ li span.azulf-3 {
 }
 
 /* Fin header */
-
-/*fotter */
-
 
 /*menu*/
 .navbar-default {
@@ -660,3 +654,28 @@ li span.azulf-3 {
 }
 
 /*/menu*/
+
+/*Inicio Contenedor Coberturas*/
+.coberturas .panel-heading{
+	background-color: #009EE5;
+	border-top-color: #009EE5; 
+	color: white;
+    padding-left: 60px;
+    padding-right: 40px;
+}
+.table tr td{
+	background-color: white;
+}
+.panel-body {
+	padding-left: 31px;
+}
+.table tbody tr td{
+	padding-right: 70px;
+    padding-left: 29px;
+}
+.table thead tr th{
+	padding-left: 29px;
+}
+
+
+/*Fin Contenedor Coberturas*/
