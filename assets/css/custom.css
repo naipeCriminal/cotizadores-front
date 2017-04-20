@@ -448,7 +448,7 @@ li span.azulf-3 {
  .navegador li a{
  	color: #fff;
  }
-  .navegador li a img {
+ .navegador li a img {
  	height: 30px;
  	padding: 3px;
  }
@@ -471,11 +471,10 @@ li span.azulf-3 {
 	transition: background-position 0.1s linear;	
  }   
     
-
 .navegador .fondo-degradado li:hover{
     color: #000;
     background: #fff;	
-		
+
 }
 .imagen img{
 	height: 100px;
@@ -535,8 +534,6 @@ li span.azulf-3 {
 }
 /* Estilos Panel */
 
-
-
 /* Inicio header */
 .imagen-header img{
 	height: 80px;
@@ -581,9 +578,6 @@ li span.azulf-3 {
 
 /* Fin header */
 
-/*fotter */
-
-
 /*menu*/
 .navbar-default {
     background: rgba(255, 255, 255, 0);
@@ -606,13 +600,12 @@ li span.azulf-3 {
 	 background-image: url('../img/icn_menu_03.png');
 	background-repeat: no-repeat;
 }
-.dona{
-	 background-image: url('../img/icn_menu_04.png');
-	background-repeat: no-repeat;
-}
 .auto{
 	background-image: url('../img/icn_menu_05.png');
 	background-repeat: no-repeat;
+}
+.mseguros .mov li:hover{
+	background-color: #094FA4;
 }
 
 .mseguros .mov li{
@@ -623,8 +616,7 @@ li span.azulf-3 {
 
 }
 .mseguros .mov li a:hover{
-	
-	color: #009ee5;
+	color: #fff;
 }
 .mseguros .mov li a{
 	color: #fff;
@@ -660,3 +652,34 @@ li span.azulf-3 {
 }
 
 /*/menu*/
+
+/*Inicio Contenedor Coberturas*/
+.coberturas .panel-heading{
+	background-color: #009EE5;
+	border-top-color: #009EE5; 
+	color: white;
+    padding-left: 60px;
+    padding-right: 40px;
+}
+.table tr td{
+	background-color: white;
+	border-color: #009EE5;
+
+}
+.panel-body {
+	padding-left: 31px;
+}
+.table tbody tr td{
+	padding-right: 70px;
+    padding-left: 29px;
+    border-bottom: #009EE5 1px solid;
+}
+.table thead tr th{
+	padding-left: 30px;
+	background-color: #009EE5;
+	color: white;
+    padding-right: 40px;
+    border-bottom: none;
+    font-size: 16px;
+}
+/*Fin Contenedor Coberturas*/
