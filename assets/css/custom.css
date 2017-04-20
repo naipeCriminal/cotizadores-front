@@ -600,13 +600,12 @@ li span.azulf-3 {
 	 background-image: url('../img/icn_menu_03.png');
 	background-repeat: no-repeat;
 }
-.dona{
-	 background-image: url('../img/icn_menu_04.png');
-	background-repeat: no-repeat;
-}
 .auto{
 	background-image: url('../img/icn_menu_05.png');
 	background-repeat: no-repeat;
+}
+.mseguros .mov li:hover{
+	background-color: #094FA4;
 }
 
 .mseguros .mov li{
@@ -617,8 +616,7 @@ li span.azulf-3 {
 
 }
 .mseguros .mov li a:hover{
-	
-	color: #009ee5;
+	color: #fff;
 }
 .mseguros .mov li a{
 	color: #fff;
@@ -684,5 +682,4 @@ li span.azulf-3 {
     border-bottom: none;
     font-size: 16px;
 }
-
 /*Fin Contenedor Coberturas*/
