@@ -81,10 +81,10 @@ este codigo esta dentro del loop de la page ó del post
 
 	while ( have_posts() ) : the_post();
 
-	    global $post;
-	    $thumbID = get_post_thumbnail_id( $post->ID );
-	    $imgDestacada = wp_get_attachment_url( $thumbID );    
-		echo $imgDestacada;
+    global $post;
+    $thumbID = get_post_thumbnail_id( $post->ID );
+    $imgDestacada = wp_get_attachment_url( $thumbID );    
+    echo $imgDestacada;
 
 	endwhile ?>
 
