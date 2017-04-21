@@ -81,10 +81,10 @@ este codigo esta dentro del loop de la page ó del post
 
 	while ( have_posts() ) : the_post();
 
-	    global $post;
-	    $thumbID = get_post_thumbnail_id( $post->ID );
-	    $imgDestacada = wp_get_attachment_url( $thumbID );    
-		echo $imgDestacada;
+    global $post;
+    $thumbID = get_post_thumbnail_id( $post->ID );
+    $imgDestacada = wp_get_attachment_url( $thumbID );    
+    echo $imgDestacada;
 
 	endwhile ?>
 
@@ -150,3 +150,37 @@ obtener todos los custom post field en especifico
     <p>Lo sentimos, intente utilizar nuestro formulario de b&uacute;squedas.</p>
     <?php endif; ?>
     <?php wp_reset_query();
+
+---------------------------------------------------------------------------
+plugin polylang como obtener el valor del idioma
+<?php $idioma = pll_current_language( 'slug' ); ?>
+
+<?php if ($idioma== 'es') {?>
+
+Codigo que se ejeutara si es idioma español
+
+<?php }?
+
+obtener la url de la pagina actual
+$translations = pll_the_languages( array( 'raw' => url ) );
+
+<?php echo $translations['en']['url']; ?>
+
+--------------------------------------------------------------------------
+loop para obtener campos de una pagina en especifico
+
+<?php
+    query_posts('page_id=118','page_id=17');
+
+    while ( have_posts('page_id=118') ) : the_post('page_id=118'); 
+    
+    global $post;
+    
+    ?>
+    <h1><?php the_title(); ?></h1>
+    
+    <?php endwhile; #else: ?>
+    <?php #endif; ?>
+    <?php #wp_reset_query();?>
+
+-------------------------------------------------------------------------
