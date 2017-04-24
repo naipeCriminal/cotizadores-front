@@ -554,6 +554,7 @@ li span.azulf-3 {
 .header{
 	list-style-type: none;
 	display: inline;
+	font-size: small;
 }
 .header ul li{
 	display: inline;
@@ -561,11 +562,10 @@ li span.azulf-3 {
 	padding: 5px 5px 5px 5px;
 	text-decoration: none;
 	border-right: 1px;
-
 }
 .ima-head img{
-	height: 16px;
-	padding: 0px;
+	padding-right: 5px;
+	padding-left: 5px;
 }
 .separador-header{ 
     background: url('../img/separador-menu.png');
@@ -597,8 +597,10 @@ li span.azulf-3 {
 
 }
 .home{
-	 background-image: url('../img/icn_menu_03.png');
+	background-image: url('../img/icn_menu_03.png');
 	background-repeat: no-repeat;
+	width: 40px;
+
 }
 .auto{
 	background-image: url('../img/icn_menu_05.png');
@@ -662,10 +664,11 @@ li span.azulf-3 {
     padding-left: 60px;
     padding-right: 40px;
 }
+.table{
+	border: solid 1px #009EE5;
+}
 .table tr td{
 	background-color: white;
-	border-color: #009EE5;
-
 }
 .panel-body {
 	padding-left: 31px;
