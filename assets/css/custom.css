@@ -550,18 +550,26 @@ li span.azulf-3 {
 }
 .header-principal .col-md-7{
 	width: 50%;
-} 
+}
+.header a{
+	color: #999999;
+}
+#Ayuda.header{
+	color: #9d261d;
+}
 .header{
 	list-style-type: none;
 	display: inline;
-	font-size: small;
+	font-size: 12px;
 }
 .header ul li{
 	display: inline;
 	margin: 0 -5px 0 0;
 	padding: 5px 5px 5px 5px;
-	text-decoration: none;
-	border-right: 1px;
+}
+.header a:hover{
+ 	text-decoration: none;
+ 	color: #555555;
 }
 .ima-head img{
 	padding-right: 5px;
@@ -606,6 +614,7 @@ li span.azulf-3 {
 	background-image: url('../img/icn_menu_05.png');
 	background-repeat: no-repeat;
 }
+
 .mseguros .mov li:hover{
 	background-color: #094FA4;
 	box-shadow: 0 0 5px rgba(0,0,0,.5) inset;
@@ -625,33 +634,56 @@ li span.azulf-3 {
 	color: #fff;
 	left: 15px; 
 }
-.bienes{
-	 background-image: url('../img/icn_menu_06.png');
+.imghead{
+	position: absolute;
+	top: 15px;
+	left: -18px;
+	width: 30px;
+	height: 30px;
+	background-size: cover;
 	background-repeat: no-repeat;
 }
-.vida{
-	 background-image: url('../img/icn_menu_07.png');
-	background-repeat: no-repeat;
+#bienes.imghead{
+	background: url('http://ec2-54-77-102-116.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/04/icn_menu_06.png');
 }
-.accidentes{
-	 background-image: url('../img/icn_menu_08.png');
-	background-repeat: no-repeat;
+#auto.imghead{
+	background: url('http://ec2-54-77-102-116.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/04/icn_menu_05.png');
 }
-.salud{
-	 background-image: url('../img/icn_menu_09.png');
-	background-repeat: no-repeat;
+#vida.imghead{
+	background: url('http://ec2-54-77-102-116.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/04/icn_menu_07.png');
 }
-.pimes{
-	 background-image: url('../img/icn_menu_10.png');
-	background-repeat: no-repeat;
+#accidentes.imghead{
+	background: url('http://ec2-54-77-102-116.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/04/icn_menu_08.png');
 }
-.empresas{
-	background-image: url('../img/icn_menu_11.png');
-	background-repeat: no-repeat;
+#salud.imghead{
+	background: url('http://ec2-54-77-102-116.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/04/icn_menu_09.png');
 }
-.separador{
-	background-image: url('../img/separador-menu.png');
+#pymes.imghead{
+	background: url('http://ec2-54-77-102-116.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/04/icn_menu_10.png');
+}
+#empresa.imghead{
+	background: url('http://ec2-54-77-102-116.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/04/icn_menu_11.png');
+}
+.mseguros .mov li{
+	background: url('http://ec2-54-77-102-116.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/04/separador-menu.png');
 	background-repeat: no-repeat;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.mseguros .mov li a:hover{
+	color: #fff;
+}
+.navbar-default .navbar-nav li a {
+    color: #fff; 
+    left: 15px;
+    padding-right: 15px;
+}
+.navbar-default .navbar-nav li a:hover {
+    color: #fff;
+    background-color: #094fa4;
+}
+.navbar-nav li a {
+    line-height: 30px;
 }
 
 /*/menu*/
