@@ -200,4 +200,23 @@ Obtener los campos repeat de una pagina en especifico
 
 <?php endif; ?>
 
-------------------------------------------------------------------------
+----------------------------------------------------------------------
+Wordpress tiene definido por defecto y tamaño maximo para cada archivo multimedia(En el caso de amazon 20MB), si requeriemos modificar esta capacidad lo hacemos así.
+
+PROBANDO CON .HTACCESS
+
+probar opción a través del archivo .htaccess. En general, htaccess se utiliza para configurar un servidor Apache.
+Sin embargo, también se puede utilizar para cambiar los valores de PHP, si tu versión de PHP está configurada como módulo de Apache.
+Antes de modificar el archivo .htaccess, asegúrate de que tienes una copia de seguridad. Un fallo al modificar este archivo puede causar un error interno del servidor o una pantalla en blanco, que se puede quitar fácilmente con sólo volver a subir el archivo .htaccess original.
+Para acceder al archivo, ve al directorio raíz de tu instalación de WordPress. Si no lo ves asegúrate de que está habilitado el cliente de FTP para ver los archivos ocultos. Abre el archivo llamado “.htaccess” para editar y en la parte inferior del archivo, pega este código:
+
+php_value upload_max_filesize 64M
+php_value post_max_size 64M
+php_value max_execution_time 300
+php_value max_input_time 300
+
+
+A continuación, guardamos de nuevo en el servidor. Visita su sitio, y comprueba que no da ningún error. Después puedes ir a Medios, 
+Añadir nuevo para ver si el tamaño máximo de carga ha entrado en vigor.
+Si surge algún problema, carga el archivo .htaccess desde la copia de seguridad que guardaste en local.
+--------------------------------------------------------------------------------
