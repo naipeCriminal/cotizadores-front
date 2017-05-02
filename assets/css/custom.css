@@ -644,10 +644,10 @@ li span.azulf-3 {
 	background-repeat: no-repeat;
 }
 #bienes.imghead{
-	background: url('http://ec2-54-77-102-116.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/04/icn_menu_06.png');
+	background: ('assets/img/icn_menu_03.png');
 }
 #auto.imghead{
-	background: url('http://ec2-54-77-102-116.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/04/icn_menu_05.png');
+	background: url('assets/img/icn_menu_05.png');
 }
 #vida.imghead{
 	background: url('http://ec2-54-77-102-116.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/04/icn_menu_07.png');
