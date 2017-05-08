@@ -538,9 +538,7 @@ li span.azulf-3 {
 }
 .header{
 	list-style-type: none;
-	display: inline;
-	
-	
+	display: inline;	
 }
 .header ul li{
 	display: inline;
@@ -548,12 +546,10 @@ li span.azulf-3 {
 	padding: 2px 5px 2px 5px;
 	text-decoration: none;
 	border-right: 1px;
-
 }
 .ima-head img{
 	height: 20px;
 	padding: 0px;
-
 }
 
 /* Fin header */
@@ -604,7 +600,6 @@ li span.azulf-3 {
 
 }
 .mseguros .mov li a:hover{
-	
 	color: #009ee5;
 }
 .mseguros .mov li a{
@@ -633,10 +628,6 @@ li span.azulf-3 {
 }
 .empresas{
 	 background-image: url('../img/icn_menu_11.png');
-	background-repeat: no-repeat;
-}
-.separador{
-	background-image: url('../img/separador-menu.png');
 	background-repeat: no-repeat;
 }
 /*/menu*/
