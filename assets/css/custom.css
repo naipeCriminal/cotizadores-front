@@ -1,5 +1,7 @@
-.container{
-	width: 960px;
+@media (min-width: 1200px){
+	.container {
+	    width: 960px;
+	}
 }
 @font-face {
     font-family: 'bentonsansbold';
@@ -390,11 +392,23 @@ p{
 .footer h4{
 	font-size: 14px;
 	font-family: 'bentonsansbookbbva';
+
 }
 .footer ul a{
-	color: #666666;
-	font-size: 12px;
+	color: #52BCEC;
+	font-size: 14px;
 	font-family:  'bentonsansbookbbva';
+}
+.menufooter ul li{
+	list-style-type: none;
+	float: left;
+	padding: 10px; 
+}
+.footer ul li img{
+	display: inline;
+	float: left;
+	height: 28px;
+ 	padding: 3px;
 }
 
 /* Termina estilos footer */
@@ -413,6 +427,7 @@ li span.azulf-3 {
 }
 .seguro_usa p{
 	font-size: 20px;
+	color: #fff;
 	text-align: center;
 }
 
@@ -434,7 +449,7 @@ li span.azulf-3 {
  .navegador li a{
  	color: #fff;
  }
-  .navegador li a img {
+ .navegador li a img {
  	height: 30px;
  	padding: 3px;
  }
@@ -457,11 +472,10 @@ li span.azulf-3 {
 	transition: background-position 0.1s linear;	
  }   
     
-
 .navegador .fondo-degradado li:hover{
     color: #000;
     background: #fff;	
-		
+
 }
 .imagen img{
 	height: 100px;
@@ -521,8 +535,6 @@ li span.azulf-3 {
 }
 /* Estilos Panel */
 
-
-
 /* Inicio header */
 .imagen-header img{
 	height: 80px;
@@ -536,9 +548,19 @@ li span.azulf-3 {
 	padding: 19px;
 	height: 20px;
 }
+.header-principal .col-md-7{
+	width: 50%;
+}
+.header a{
+	color: #999999;
+}
+#Ayuda.header{
+	color: #9d261d;
+}
 .header{
 	list-style-type: none;
-	display: inline;	
+	display: inline;
+	font-size: 12px;
 }
 .header ul li{
 	display: inline;
@@ -549,24 +571,33 @@ li span.azulf-3 {
 }
 .ima-head img{
 	height: 20px;
-	padding: 0px;
+	padding: 5px 5px 5px 5px;
+}
+.header a:hover{
+ 	text-decoration: none;
+ 	color: #555555;
+}
+.ima-head img{
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.separador-header{ 
+    background: url('../img/separador-menu.png');
+    background-repeat: no-repeat;
+    padding-left: 7px; 
+    padding-right: 7px;
+}
+.hidden-xs .hidden-sm{
+	overflow: hidden;
 }
 
 /* Fin header */
-
-/*fotter */
-.menufooter ul li{
-	list-style-type: none;
-	float: left;
-	padding: 10px; 
-}
 
 /*menu*/
 .navbar-default {
     background: rgba(255, 255, 255, 0);
     border: none;
 }
-
 .mseguros{
 	margin-top: 0px;
 	margin-bottom: 0px;
@@ -580,23 +611,26 @@ li span.azulf-3 {
 
 }
 .home{
-	 background-image: url('../img/icn_menu_03.png');
+	background-image: url('../img/icn_menu_03.png');
 	background-repeat: no-repeat;
-}
-.dona{
-	 background-image: url('../img/icn_menu_04.png');
-	background-repeat: no-repeat;
+	width: 40px;
+
 }
 .auto{
 	background-image: url('../img/icn_menu_05.png');
 	background-repeat: no-repeat;
 }
 
+.mseguros .mov li:hover{
+	background-color: #094FA4;
+	box-shadow: 0 0 5px rgba(0,0,0,.5) inset;
+}
+
 .mseguros .mov li{
-     background: url('../img/separador-menu.png');
+    background: url('../img/separador-menu.png');
     background-repeat: no-repeat;
     padding-left: 7px; 
-     padding-right: 7px;
+    padding-right: 7px;
 
 }
 .mseguros .mov li a:hover{
@@ -606,28 +640,89 @@ li span.azulf-3 {
 	color: #fff;
 	left: 15px; 
 }
-.bienes{
-	 background-image: url('../img/icn_menu_06.png');
+.imghead{
+	position: absolute;
+	top: 15px;
+	left: -18px;
+	width: 30px;
+	height: 30px;
+	background-size: cover;
 	background-repeat: no-repeat;
 }
-.vida{
-	 background-image: url('../img/icn_menu_07.png');
-	background-repeat: no-repeat;
+#bienes.imghead{
+	background: ('assets/img/icn_menu_03.png');
 }
-.accidentes{
-	 background-image: url('../img/icn_menu_08.png');
-	background-repeat: no-repeat;
+#auto.imghead{
+	background: url('assets/img/icn_menu_05.png');
 }
-.salud{
-	 background-image: url('../img/icn_menu_09.png');
-	background-repeat: no-repeat;
+#vida.imghead{
+	background: url('http://ec2-54-77-102-116.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/04/icn_menu_07.png');
 }
-.pimes{
-	 background-image: url('../img/icn_menu_10.png');
-	background-repeat: no-repeat;
+#accidentes.imghead{
+	background: url('http://ec2-54-77-102-116.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/04/icn_menu_08.png');
 }
-.empresas{
-	 background-image: url('../img/icn_menu_11.png');
-	background-repeat: no-repeat;
+#salud.imghead{
+	background: url('http://ec2-54-77-102-116.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/04/icn_menu_09.png');
+}
+#pymes.imghead{
+	background: url('http://ec2-54-77-102-116.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/04/icn_menu_10.png');
+}
+#empresa.imghead{
+	background: url('http://ec2-54-77-102-116.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/04/icn_menu_11.png');
 }
 /*/menu*/
+.mseguros .mov li{
+	background: url('http://ec2-54-77-102-116.eu-west-1.compute.amazonaws.com/wp-content/uploads/2017/04/separador-menu.png');
+	background-repeat: no-repeat;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.mseguros .mov li a:hover{
+	color: #fff;
+}
+.navbar-default .navbar-nav li a {
+    color: #fff; 
+    left: 15px;
+    padding-right: 15px;
+}
+.navbar-default .navbar-nav li a:hover {
+    color: #fff;
+    background-color: #094fa4;
+}
+.navbar-nav li a {
+    line-height: 30px;
+}
+
+/*/menu*/
+
+/*Inicio Contenedor Coberturas*/
+.coberturas .panel-heading{
+	background-color: #009EE5;
+	border-top-color: #009EE5; 
+	color: white;
+    padding-left: 60px;
+    padding-right: 40px;
+}
+.table{
+	border: solid 1px #009EE5;
+}
+.table tr td{
+	background-color: white;
+}
+.panel-body {
+	padding-left: 31px;
+}
+.table tbody tr td{
+	padding-right: 70px;
+    padding-left: 29px;
+    border-bottom: #009EE5 1px solid;
+}
+.table thead tr th{
+	padding-left: 30px;
+	background-color: #009EE5;
+	color: white;
+    padding-right: 40px;
+    border-bottom: none;
+    font-size: 16px;
+}
+/*Fin Contenedor Coberturas*/

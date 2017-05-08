@@ -51,7 +51,7 @@ $descripcion = get_field('descripcion');
 
 
 pintar el custom post field directamente
-<?php the_sub_field('titulo'); ?>
+<?php the_field('titulo'); ?>
 
 
 ______
@@ -81,10 +81,10 @@ este codigo esta dentro del loop de la page ó del post
 
 	while ( have_posts() ) : the_post();
 
-	    global $post;
-	    $thumbID = get_post_thumbnail_id( $post->ID );
-	    $imgDestacada = wp_get_attachment_url( $thumbID );    
-		echo $imgDestacada;
+    global $post;
+    $thumbID = get_post_thumbnail_id( $post->ID );
+    $imgDestacada = wp_get_attachment_url( $thumbID );    
+    echo $imgDestacada;
 
 	endwhile ?>
 
@@ -150,3 +150,73 @@ obtener todos los custom post field en especifico
     <p>Lo sentimos, intente utilizar nuestro formulario de b&uacute;squedas.</p>
     <?php endif; ?>
     <?php wp_reset_query();
+
+---------------------------------------------------------------------------
+plugin polylang como obtener el valor del idioma
+<?php $idioma = pll_current_language( 'slug' ); ?>
+
+<?php if ($idioma== 'es') {?>
+
+Codigo que se ejeutara si es idioma español
+
+<?php }?
+
+obtener la url de la pagina actual
+$translations = pll_the_languages( array( 'raw' => url ) );
+
+<?php echo $translations['en']['url']; ?>
+
+--------------------------------------------------------------------------
+loop para obtener campos de una pagina en especifico
+
+<?php
+    query_posts('page_id=118','page_id=17');
+
+    while ( have_posts('page_id=118') ) : the_post('page_id=118'); 
+    
+    global $post;
+    
+    ?>
+    <h1><?php the_title(); ?></h1>
+    
+    <?php endwhile; #else: ?>
+    <?php #endif; ?>
+    <?php #wp_reset_query();?>
+
+-------------------------------------------------------------------------
+Obtener los campos repeat de una pagina en especifico
+
+<?php if( have_rows('repeater', 123) ): ?>
+
+    <ul>
+
+    <?php while( have_rows('repeater', 123) ): the_row(); ?>
+
+        <li><?php the_sub_field('title'); ?></li>
+
+    <?php endwhile; ?>
+
+    </ul>
+
+<?php endif; ?>
+
+----------------------------------------------------------------------
+Wordpress tiene definido por defecto y tamaño maximo para cada archivo multimedia(En el caso de amazon 20MB), si requeriemos modificar esta capacidad lo hacemos así.
+
+PROBANDO CON .HTACCESS
+
+probar opción a través del archivo .htaccess. En general, htaccess se utiliza para configurar un servidor Apache.
+Sin embargo, también se puede utilizar para cambiar los valores de PHP, si tu versión de PHP está configurada como módulo de Apache.
+Antes de modificar el archivo .htaccess, asegúrate de que tienes una copia de seguridad. Un fallo al modificar este archivo puede causar un error interno del servidor o una pantalla en blanco, que se puede quitar fácilmente con sólo volver a subir el archivo .htaccess original.
+Para acceder al archivo, ve al directorio raíz de tu instalación de WordPress. Si no lo ves asegúrate de que está habilitado el cliente de FTP para ver los archivos ocultos. Abre el archivo llamado “.htaccess” para editar y en la parte inferior del archivo, pega este código:
+
+php_value upload_max_filesize 64M
+php_value post_max_size 64M
+php_value max_execution_time 300
+php_value max_input_time 300
+
+
+A continuación, guardamos de nuevo en el servidor. Visita su sitio, y comprueba que no da ningún error. Después puedes ir a Medios, 
+Añadir nuevo para ver si el tamaño máximo de carga ha entrado en vigor.
+Si surge algún problema, carga el archivo .htaccess desde la copia de seguridad que guardaste en local.
+--------------------------------------------------------------------------------
